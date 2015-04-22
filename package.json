@@ -1,0 +1,27 @@
+{
+  "name": "mentor",
+  "version": "1.0.1",
+  "description": "A CLI tool that gives you a random mentor.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/a0viedo/mentor.git"
+  },
+  "keywords": [
+    "nodeschool",
+    "workshop",
+    "mentor"
+  ],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/a0viedo/mentor/issues"
+  },
+  "homepage": "https://github.com/a0viedo/mentor",
+  "dependencies": {
+    "minimist": "^1.1.1"
+  }
+}
