@@ -12,4 +12,16 @@ if (argv.list) {
     return;
 }
 
-console.log(mentorsList[Math.floor(Math.random() * mentorsList.length)]);
+//clear terminal 
+process.stdout.write('\033c');
+console.log("\n\n");
+var i = 0;
+var interval = setInterval( function() {
+  process.stdout.clearLine();
+  process.stdout.cursorTo(0);
+  process.stdout.write(mentorsList[Math.floor(Math.random() * mentorsList.length)]);
+  if (i++ > 10) {
+    clearInterval(interval);
+    console.log("\n\n");
+  }
+}, 100 );
